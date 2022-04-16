@@ -1,0 +1,10 @@
+MCQ Answers:
+
+1] d)Compile Time Error
+   reason: because we cant access priavte varibles outside the main class.
+
+2] b)123
+   reason: because of inheritance
+
+3] d)Compile time error
+   reason: child class consist of two parent classes that is why compile time error occurs.
