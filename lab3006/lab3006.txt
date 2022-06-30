@@ -1,0 +1,4 @@
+Write a program to search an user given element from an array.
+
+Write a code to find missing number from an array such that it 
+only contains distinct integers in the range of 1 to N
