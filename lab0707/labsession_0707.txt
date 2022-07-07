@@ -1,0 +1,6 @@
+Craete a bean class with 4 properties and check if two objects are equal or not 
+based on any one of the properties
+
+Write program to convert a decimal number o binary format .
+
+Is it possible to start a thread twice? Explain with a code.
