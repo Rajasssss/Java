@@ -1,0 +1,11 @@
+1. Write MySql query to implement below mwntioned operation :
+a. Creata a Employee Student with name , id as Primary Key and Not null , dept and salary
+b. Insert 4 different set of data using a single query 
+c. Select all the salary along with the employee name 
+d. change all the Accounts dept to Finance dept
+e. delete the data who is having empid = 101
+
+2.Retrieve a value associated with a given key from the HashMap .
+
+3.Create a Teacher class and take name and subject as properties. Create some objects of teacher.
+  delete a teacher based on the name and subject given by a user.

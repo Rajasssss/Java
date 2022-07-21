@@ -1,0 +1,45 @@
+-- 1. Write MySql query to implement below mentioned operation : 
+-- a. Creata a Employee Table with name , id as Primary Key and Not null , dept and salary
+-- b. Insert 4 different set of data using a single query 
+-- c. Select all the salary along with the employee name 
+-- d. change all the Accounts dept to Finance dept
+-- e. delete the data who is having empid = 101
+
+ USE EMPLOYEE;
+ -- a. Creata a Employee Table with name , id as Primary Key and Not null , dept and salary
+CREATE TABLE employee               
+(
+emp_id int ,
+emp_name varchar(50),
+dept varchar(50),
+salary int,
+PRIMARY KEY(emp_id)
+);
+
+SELECT * FROM employee;
+
+ALTER TABLE employee
+MODIFY emp_id int NOT NULL;
+
+-- b. Insert 4 different set of data using a single query 
+INSERT  INTO employee (emp_id, emp_name, dept, salary)
+VALUES 
+ (101, 'emp1', 'manager', 40000),
+ (2, 'emp2', 'ACCOUTANT', 12000),
+ (3, 'emp3', 'HR', 10000),
+ (4, 'emp4', 'SOFTWARE DEVLOPER', 58000);
+ 
+ -- c. Select all the salary along with the employee name 
+ SELECT emp_name ,salary FROM employee;
+ 
+ 
+ -- d. change all the Accounts dept to Finance dept
+ UPDATE employee
+SET dept = 'FINANCE'
+WHERE emp_id = 2;
+
+
+-- e. delete the data who is having empid = 101
+DELETE FROM employee WHERE emp_id=101;
+
+SELECT * FROM employee;
