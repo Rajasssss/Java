@@ -1,0 +1,9 @@
+ 
+Assume there is a Employee table having multiple data and one the column name is department.
+Write a query to fetch the number of employees working in the department ‘HR’.
+
+Assume there is a Employee table having multiple data and one the column name is fname.
+Write a query to find the firstnames of employees that begin with ‘S’
+
+Create Maven Project named FirstJDBCLab . Create 3 package a. Loading b. ddl_operation c. dml_operation
+Create a table , Insert 4 row data using user input and change all 3rd column value 10 if int or hello if varchar
